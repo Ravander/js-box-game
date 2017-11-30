@@ -1,0 +1,71 @@
+/* w3.css Colors */
+
+.w3-khaki {
+  background-color: #f2e2ce !important;
+  color: blue !important;
+}
+
+.w3-hover-khaki:hover {
+  background-color: #f2e2ce !important;
+}
+
+.w3-hover-text-khaki:hover {
+  color: #f2e2ce !important;
+}
+
+.w3-text-khaki {
+  color: #f2e2ce !important;
+}
+
+/* General */
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, color 0.2s;
+}
+
+button#infoOpenButton {
+  border-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+button#hsOpenButton {
+  border-radius: 0;
+  border-bottom-left-radius: 8px;
+}
+
+button.sidebarCloseButton {
+  border-radius: 0;
+  border-bottom-right-radius: 8px;
+}
+
+#highScores, #info {
+  display: none;
+  width: 400px;
+  right: 0;
+}
+
+#heading {
+  text-shadow: 2px 2px 0 #444;
+}
+
+canvas#gameCanvas {
+  border: 1px solid #595959;
+  background-color: #f2e2ce;
+  width: 640px;
+  height: 480px;
+  margin: 16px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+div#gameButtons {
+  margin: 16px auto;
+}
