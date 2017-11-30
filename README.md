@@ -1,1 +1,2 @@
-"# js-box-game" 
+Small Javascript game
+http://tuomasravander.esy.es/
